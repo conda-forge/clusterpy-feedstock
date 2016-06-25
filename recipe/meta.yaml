@@ -9,11 +9,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ camelName }}-{{ version }}.tar.gz
-  md5: a08ed6d3bb07f40aedb1d5161a9dc72e
+  sha256: 6e46749b806dbf098c78de3c991ba146820ac428ca9ad1882369672076cd4fa2
 
 build:
   skip: True  # [py3k]
-  number: 0
+  number: 1
   script: python setup.py install
 
 requirements:
