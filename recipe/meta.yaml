@@ -13,7 +13,7 @@ source:
 
 build:
   skip: True  # [py3k]
-  number: 1
+  number: 2
   script: python setup.py install
 
 requirements:
@@ -37,7 +37,11 @@ test:
 about:
   home: http://www.rise-group.org/section/Software/clusterPy/
   license: BSD 3-Clause
+  license_file: LICENSE.txt
+  license_family: BSD
   summary: 'Library of spatially constrained clustering algorithms'
+  dev_url: https://code.google.com/archive/p/clusterpy/source/default/source
+  doc_url: http://www.rise-group.org/risem/clusterpy/index.html
 
 extra:
   recipe-maintainers:
