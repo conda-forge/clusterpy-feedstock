@@ -13,11 +13,11 @@ source:
 
 build:
   skip: True  # [py3k]
-  number: 1003
+  number: 1004
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
 
   run:
